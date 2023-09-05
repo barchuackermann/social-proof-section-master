@@ -29,6 +29,11 @@ body{
             background-image: url(../images/bg-pattern-top-desktop.svg);
             background-position: top left;
             background-size: 50vw auto;
+            width: 1440px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
         }
     main{
         background-image: url(../images/bg-pattern-bottom-mobile.svg);
@@ -38,6 +43,7 @@ body{
         @include desktop{
             background-image: url(../images/bg-pattern-bottom-desktop.svg);
             background-size: 50vw auto;
+            background-color: white;
         }
         .intro{
             display: flex;
@@ -204,7 +210,8 @@ body{
     .attribution {
         font-size: 11px;
         text-align: center;
-        margin-bottom: 0.5rem;
+        height: 5vh;
+        background-color: white;
         a {
             color: hsl(228, 45%, 44%);
         }
