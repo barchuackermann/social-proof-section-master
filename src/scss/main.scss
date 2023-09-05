@@ -6,7 +6,7 @@ $darkGrayishMagenta: hsl(303, 10%, 53%);
 $lightGrayishMagenta: hsl(300, 24%, 96%);
 $white: hsl(0, 0%, 100%);
 @mixin desktop {
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 769px) {
         @content;
     }
 }
